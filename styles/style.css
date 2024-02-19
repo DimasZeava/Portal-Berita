@@ -1,6 +1,8 @@
 :root {
-  --primary-color: rgb(204, 37, 37, 0.75);
-  --overlay-color: rgba(49, 20, 20);
+  --primary-color: rgb(204, 37, 37);
+  --secondary-color: rgb(204, 175, 175);
+  --third-color: rgb(204, 200, 200);
+  --fourth-color: rgba(49, 20, 20);
   --menu-speed: 0.85s;
 }
 
@@ -21,10 +23,14 @@ body {
   padding: 0 60px;
 }
 
+section {
+  height: 100vh;
+}
+
 .introduction {
   background-color: var(--primary-color);
   color: #fff;
-  height: 100vh;
+  height: 20vh;
   position: relative;
 }
 
@@ -38,9 +44,13 @@ body {
 }
 
 .introduction h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 .introduction p {
-  font-size: 1.2rem;
+  font-size: 0.75rem;
+}
+
+main {
+  height: 100vh;
 }
