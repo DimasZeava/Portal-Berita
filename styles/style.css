@@ -1,0 +1,46 @@
+:root {
+  --primary-color: rgb(204, 37, 37, 0.75);
+  --overlay-color: rgba(49, 20, 20, 0.85);
+  --menu-speed: 0.85s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 60px;
+}
+
+.introduction {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 100vh;
+  position: relative;
+}
+
+.introduction .introduction-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.introduction h1 {
+  font-size: 3.5rem;
+}
+
+.introduction p {
+  font-size: 1.2rem;
+}
