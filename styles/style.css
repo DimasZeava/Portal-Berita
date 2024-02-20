@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(204, 37, 37);
-  --secondary-color: rgb(204, 175, 175);
+  --secondary-color: rgb(204, 49, 49);
   --third-color: rgb(248, 243, 243);
   --fourth-color: rgba(49, 20, 20);
   --menu-speed: 0.85s;
@@ -51,6 +51,39 @@ section {
   font-size: 0.75rem;
 }
 
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
 .title-letter {
   position: relative;
   padding: 20px;
@@ -69,7 +102,7 @@ section {
 
 .title-letter {
   position: relative;
-  left: 100px;
+  margin-left: 100px;
 }
 
 main .container-card {
@@ -150,14 +183,14 @@ main .container-card {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in;
 }
 
 .card a:hover {
   background-color: var(--third-color);
   color: var(--primary-color);
   border-style: solid;
-  border-width: 0.2rem;
+  border-width: 0.1rem;
   text-decoration: none;
 }
 
