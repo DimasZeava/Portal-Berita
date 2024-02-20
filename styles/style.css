@@ -51,6 +51,27 @@ section {
   font-size: 0.75rem;
 }
 
+.title-letter {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.title-letter > div {
+  position: relative;
+  width: 3px;
+  height: 32px;
+  background-color: var(--primary-color);
+  transition: all 0.25s ease;
+}
+
+.title-letter {
+  position: relative;
+  left: 100px;
+}
+
 main .container-card {
   display: flex;
   justify-content: center;
